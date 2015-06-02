@@ -7,7 +7,7 @@ all: lbfgsb.o ancestry-gll.c lbfgsb.h lbfgsb.c
 
 
 lbfgsb.o: lbfgsb.h lbfgsb.c
-        $(CC) -o lbfgsb.o -c lbfgsb.c
+	$(CC) -o lbfgsb.o -c lbfgsb.c
 
 
 clean:
